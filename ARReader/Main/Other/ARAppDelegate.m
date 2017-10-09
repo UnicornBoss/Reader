@@ -21,7 +21,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    ARGCDCenter *center = [[ARGCDCenter alloc] init];
+    ARReaderCenter *center = [[ARReaderCenter alloc] init];
     self.window.rootViewController = center;
     [self.window makeKeyAndVisible];
     return YES;
